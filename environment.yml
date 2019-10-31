@@ -1,0 +1,16 @@
+name: nd_care-net
+dependencies:
+    - python=3.6.9
+    - numpy
+    - pandas
+    - matplotlib
+    - tabulate
+    - jupyter
+    - jupyterlab
+    - xlrd=1.2.0
+    - pip
+    - pip:
+        - sklearn
+        - networkx
+        - xmlschema
+        - python-igraph
