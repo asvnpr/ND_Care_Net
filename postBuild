@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# enable google drive integration
+jupyter labextension install @jupyterlab/google-drive
+
+# move jupyter google-drive config file
+mv drive.jupyterlab-settings /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/google-drive/drive.jupyterlab-settings 
+mv themes.jupyterlab-settings /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/themes.jupyterlab-settings 

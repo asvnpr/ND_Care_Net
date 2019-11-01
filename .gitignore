@@ -1,0 +1,6 @@
+# ignore all data files since we're hosting this publicly on github
+*.csv
+*.xlsx
+*.json
+*.xml
+*.xsd
