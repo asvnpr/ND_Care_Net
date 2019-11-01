@@ -4,3 +4,8 @@
 *.json
 *.xml
 *.xsd
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.xml
+data/*.xsd

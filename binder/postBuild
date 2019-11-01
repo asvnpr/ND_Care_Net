@@ -3,6 +3,10 @@
 # enable google drive integration
 jupyter labextension install @jupyterlab/google-drive
 
+# create dirs since they don't exist
+mkdir -p /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/google-drive/ 
 # move jupyter google-drive config file
 mv drive.jupyterlab-settings /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/google-drive/drive.jupyterlab-settings 
+# create dir just in case
+mkdir -p /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/ 
 mv themes.jupyterlab-settings /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/themes.jupyterlab-settings 
