@@ -9,3 +9,4 @@ data/*.xlsx
 data/*.json
 data/*.xml
 data/*.xsd
+*.zip

@@ -15,3 +15,4 @@ dependencies:
         - xmlschema
         - python-igraph
         - jupyterdrive
+        - gdown
