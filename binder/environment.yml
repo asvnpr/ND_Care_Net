@@ -9,10 +9,15 @@ dependencies:
     - jupyterlab
     - xlrd=1.2.0
     - pip
+    - pytorch
+    - torchvision
+    - cudatoolkit=10.1
     - pip:
         - sklearn
         - networkx
         - xmlschema
-        - python-igraph
-        - jupyterdrive
-        - gdown
+        - gensim
+        - nltk
+        - transformers
+        - sentence-transformers
+        - texttable

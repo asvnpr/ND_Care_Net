@@ -1,0 +1,6 @@
+[submodule "BANE"]
+	path = BANE
+	url = git@github.com:benedekrozemberczki/BANE.git
+[submodule "TENE"]
+	path = TENE
+	url = git@github.com:benedekrozemberczki/TENE.git
