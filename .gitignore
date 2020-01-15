@@ -12,3 +12,5 @@ data/*.xsd
 *.zip
 models/*
 embeddings/*
+.ipynb_checkpoints
+.library.json
