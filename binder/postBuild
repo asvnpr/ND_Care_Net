@@ -4,5 +4,6 @@ gdown "https://drive.google.com/uc?id=1MndgLu6togwrlFGsPQ4TfVYMPaq97Kte" -O data
 aunpack data.tar.gz
 rm data.tar.gz
 mkdir ~/.jupyter
+cp binder/jupyter_notebook_config.py ~/.jupyter/
 cp binder/jupyter_notebook_config.py /srv/conda/envs/notebook/etc/jupyter/ 
 cp binder/jupyter_notebook_config.py ~/
