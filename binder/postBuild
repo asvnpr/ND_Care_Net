@@ -3,4 +3,4 @@
 gdown "https://drive.google.com/uc?id=1MndgLu6togwrlFGsPQ4TfVYMPaq97Kte" -O data.tar.gz
 aunpack data.tar.gz
 rm data.tar.gz
-cp jupyter_notebook_config.json ~/.jupyter
+cp binder/jupyter_notebook_config.py ~/.jupyter/
