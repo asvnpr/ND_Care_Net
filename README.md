@@ -23,8 +23,8 @@ and volunteers.".*
 
 ## Broad Goals:
 1. Refactor 211 IN Programs & Providers dataset as an attributed [Heterogeneous Information Network](https://arxiv.org/pdf/1511.04854.pdf)
-2. Transform our originally unstructured, categorical data into quantitative data using:
-  - attributed network embeddings 
+2. Transform our originally unstructured, text data into quantitative data using:
+  - attributed network embeddings to convert node and contents into a vector
   - that capture structural (network) and semantic (content/text) similarities 
   - using existing and/or modified state-of-the-art Deep Learning methods
  3. Based on clustering of these network nodes, recommend services to users based on their queries and eventually their user data
