@@ -1,12 +1,5 @@
 #! /bin/bash
 
-# enable google drive integration
-jupyter labextension install @jupyterlab/google-drive
-
-# create dirs since they don't exist
-mkdir -p /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/google-drive/ 
-# move jupyter google-drive config file
-mv binder/drive.jupyterlab-settings /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/google-drive/drive.jupyterlab-settings 
-# create dir just in case
-mkdir -p /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/ 
-mv binder/themes.jupyterlab-settings /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/themes.jupyterlab-settings 
+gdown "https://drive.google.com/file/d/1MndgLu6togwrlFGsPQ4TfVYMPaq97Kte/view?usp=sharing" -O data.tar.gz
+aunpack data.tar.gz
+rm data.tar.gz
