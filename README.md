@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/asvnpr/ND_Care_Net/master)
 
-## Brief Rationale Overview
+## Rationale Overview
 
 *"South Bend, Indiana, a post-industrial city of over 100,000 residents and a poverty rate double the national average, 
 has an extensive network of formal and informal social services. Despite this, residents and local providers have expressed 
