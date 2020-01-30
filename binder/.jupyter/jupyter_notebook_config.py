@@ -65,7 +65,7 @@ c.NotebookApp.allow_origin = '*'
 #  token login mechanism.
 #  
 #  This can be set to false to prevent changing password from the UI/API.
-#c.NotebookApp.allow_password_change = True
+c.NotebookApp.allow_password_change = True
 
 ## Allow requests where the Host header doesn't point to a local server
 #  
@@ -278,7 +278,7 @@ c.NotebookApp.ip = '0.0.0.0'
 #    from notebook.auth import passwd; passwd()
 #  
 #  The string should be of the form type:salt:hashed-password.
-#c.NotebookApp.password = ''
+c.NotebookApp.password = u'sha1:8c836498a99c:1a7547508273d6095e586d19bb5b121b172b5a2e'
 
 ## Forces users to use a password for the Notebook server. This is useful in a
 #  multi user environment, for instance when everybody in the LAN can access each
