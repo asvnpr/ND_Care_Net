@@ -1,5 +1,6 @@
 #! /bin/bash
 
-gdown "https://drive.google.com/file/d/1MndgLu6togwrlFGsPQ4TfVYMPaq97Kte/view?usp=sharing" -O data.tar.gz
+gdown "https://drive.google.com/uc?id=1MndgLu6togwrlFGsPQ4TfVYMPaq97Kte" -O data.tar.gz
 aunpack data.tar.gz
 rm data.tar.gz
+#jupyter lab ./
