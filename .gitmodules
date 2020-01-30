@@ -1,6 +1,6 @@
 [submodule "BANE"]
 	path = BANE
-	url = https://github.com:benedekrozemberczki/BANE.git
+	url = https://github.com/benedekrozemberczki/BANE.git
 [submodule "TENE"]
 	path = TENE
-	url = https://github.com:benedekrozemberczki/TENE.git
+	url = https://github.com/benedekrozemberczki/TENE.git
