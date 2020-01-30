@@ -21,3 +21,4 @@ dependencies:
         - transformers
         - sentence-transformers
         - texttable
+        - jupyter-repo2docker
