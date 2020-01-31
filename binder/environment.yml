@@ -12,6 +12,7 @@ dependencies:
     - pytorch
     - torchvision
     - cudatoolkit=10.1
+    - nb_conda_kernels
     - pip:
         - sklearn
         - networkx
@@ -24,3 +25,4 @@ dependencies:
         - jupyter-repo2docker
         - gdown
         - comet-ml
+        - jupyterlab-git
