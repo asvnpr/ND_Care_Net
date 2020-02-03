@@ -9,6 +9,7 @@ dependencies:
     - jupyterlab
     - xlrd=1.2.0
     - pip
+    - pillow
     - pytorch
     - torchvision
     - cudatoolkit=10.1
