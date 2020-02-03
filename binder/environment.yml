@@ -14,12 +14,16 @@ dependencies:
     - torchvision
     - cudatoolkit=10.1
     - nb_conda_kernels
+    - deepdish
+    - tqdm
+    - ipywidgets
+    - sklearn
+    - networkx
+    - gensim
+    - nltk
+    - scipy
     - pip:
-        - sklearn
-        - networkx
         - xmlschema
-        - gensim
-        - nltk
         - transformers
         - sentence-transformers
         - texttable
@@ -27,3 +31,4 @@ dependencies:
         - gdown
         - comet-ml
         - jupyterlab-git
+        - wordcloud

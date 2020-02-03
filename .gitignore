@@ -14,4 +14,4 @@ models/*
 embeddings/*
 .ipynb_checkpoints
 .library.json
-HW/*
+HW/
