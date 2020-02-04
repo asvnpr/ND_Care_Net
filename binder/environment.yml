@@ -17,7 +17,7 @@ dependencies:
     - deepdish
     - tqdm
     - ipywidgets
-    - sklearn
+    - scikit-learn
     - networkx
     - gensim
     - nltk
