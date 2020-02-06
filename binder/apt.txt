@@ -7,3 +7,5 @@ texlive-fonts-recommended
 dvipng
 ghostscript
 atool
+libopenblas-dev
+pbzip2
