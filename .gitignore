@@ -16,3 +16,4 @@ embeddings/*
 HW/
 .ipynb_checkpoints/
 .local/
+.local/*
