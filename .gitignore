@@ -9,6 +9,9 @@ data/*.xlsx
 data/*.json
 data/*.xml
 data/*.xsd
+data/*.pkl
+data/*.mapping
+data/*_index
 *.zip
 models/*
 embeddings/*
