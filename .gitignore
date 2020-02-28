@@ -18,3 +18,5 @@ embeddings/*
 .library.json
 HW/
 .ipynb_checkpoints/
+.local/
+.local/*
