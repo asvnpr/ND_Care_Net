@@ -40,5 +40,5 @@ and volunteers.".*
  - Make final choice of network embedding method(s)
  - Implement clustering of embeddings
  - Test clustering metrics of several embedding methods
- - Recommend over clustering or other method
- - Visualization of embeddings, clusters, and topic modeling
+ - Incorporate new reference/interactions data
+ - [Wide Deep Model](https://dl.acm.org/doi/10.1145/2988450.2988454) for recommendation
