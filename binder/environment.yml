@@ -24,7 +24,12 @@ dependencies:
         - jupyter-repo2docker
         - gdown
         - comet-ml
+        - tensorflow-hub
+        - tensorflow-text
         - jupyterlab-git
         - wordcloud
         - pyldavis
         - tensorflow-text
+        - pgeocode
+        - tensorboard
+        - plot-keras-history

@@ -12,6 +12,7 @@ data/*.xsd
 data/*.pkl
 data/*.mapping
 data/*_index
+embeddings/*
 *.zip
 models/*
 embeddings/*
