@@ -33,3 +33,4 @@ dependencies:
         - pgeocode
         - tensorboard
         - plot-keras-history
+        - pydot
